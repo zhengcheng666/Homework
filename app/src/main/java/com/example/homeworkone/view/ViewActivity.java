@@ -5,8 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.homeworkone.R;
+import com.example.homeworkone.base.BaseActivity;
 
-public class ViewActivity extends AppCompatActivity {
+public class ViewActivity extends BaseActivity<Pers> {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
